@@ -17,6 +17,11 @@ app.use(express.json());
         Route Params: parametros para identificar recursos
         Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
 */
+/**
+ * Banco Utilizado SQLite
+ * Query Builder:  table('users').slect('*').where()  exemple
+ * knext
+ */
 app.post('/users', (req, res) => {
     return res.json({
         "evento": "Semana Omnistack 11"

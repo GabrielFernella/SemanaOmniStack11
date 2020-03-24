@@ -1,9 +1,9 @@
 Instalações de Pacote
 1 - yarn init -y (montar o package.json)
 2 - yarn add express and yarn add nodemon -D
-3 - 
-4 - 
-6 - 
+3 - yarn add knex  (Query Builder para banco de dados SQL)
+4 - npm install sqlite3 (modelo de driver do sql que ira ser utilizado)
+6 - npx knex init (executa o arquivo e cria as configurações de acesso ao banco de dados)
 7 - 
 8 - 
 9 -
