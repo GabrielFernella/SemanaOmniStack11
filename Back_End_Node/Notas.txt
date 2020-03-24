@@ -3,17 +3,51 @@ Instalações de Pacote
 2 - yarn add express and yarn add nodemon -D
 3 - yarn add knex  (Query Builder para banco de dados SQL)
 4 - npm install sqlite3 (modelo de driver do sql que ira ser utilizado)
+5 - npx knex (Mostra todos os comando do knex )
 6 - npx knex init (executa o arquivo e cria as configurações de acesso ao banco de dados)
-7 - 
-8 - 
-9 -
-10 -  
+7 - npx knex migrate:make create_ongs (para criar a primeira migrations, lembre-se de salvar as configurações do knexfile)
+8 - npx knex migrate:latest (para validar e criar a tabela no banco)
+9 - npx knex migrate:make create_incidents (criar a migration de outra tabela)
+10 - 
 11 - 
 12 - 
 13 - 
 14 - 
+15 - 
 16 - 
 17 - 
 18 - 
 19 -
-20 -  
+20 -
+21 - 
+22 - 
+23 - 
+24 - 
+25 - 
+26 - 
+27 - 
+28 - 
+29 -
+30 -  
+
+
+
+
+
+###  Teoria:   ###
+
+
+    Métodos HTTP: 
+        Get - buscar info
+        Post - criar info 
+        Put - alterar info
+        Delete - deletar info
+
+    Tipos de parametros
+        Query: parametros nomeados na rota após "?" para filtros e paginação
+        Route Params: parametros para identificar recursos
+        Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+
+    Banco Utilizado SQLite
+        Query Builder:  table('users').slect('*').where()  exemple
+        knext
