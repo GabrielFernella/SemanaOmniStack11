@@ -8,7 +8,7 @@ Instalações de Pacote
 7 - npx knex migrate:make create_ongs (para criar a primeira migrations, lembre-se de salvar as configurações do knexfile)
 8 - npx knex migrate:latest (para validar e criar a tabela no banco)
 9 - npx knex migrate:make create_incidents (criar a migration de outra tabela)
-10 - 
+10 - Create Routes
 11 - 
 12 - 
 13 - 
@@ -51,3 +51,6 @@ Instalações de Pacote
     Banco Utilizado SQLite
         Query Builder:  table('users').slect('*').where()  exemple
         knext
+
+        Controllers
+            Serve para fazermos os metodos de CRUD das tabelas e valdar as mesmas
