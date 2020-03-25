@@ -54,3 +54,5 @@ Instalações de Pacote
 
         Controllers
             Serve para fazermos os metodos de CRUD das tabelas e valdar as mesmas
+
+    #Extenção do SQLite pode ser uma opção pra o vsCode
