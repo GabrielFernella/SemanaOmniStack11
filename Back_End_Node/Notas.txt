@@ -9,7 +9,7 @@ Instalações de Pacote
 8 - npx knex migrate:latest (para validar e criar a tabela no banco)
 9 - npx knex migrate:make create_incidents (criar a migration de outra tabela)
 10 - Create Routes
-11 - 
+11 - npm intall cors || yarn add cors
 12 - 
 13 - 
 14 - 
