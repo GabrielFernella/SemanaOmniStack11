@@ -1,0 +1,20 @@
+
+1 - npx create-react-app project
+2 - ctrl+shift+p setings json Emments
+3 - npm install react-icons (Pacote de Icones)
+4 - npm install react-router-dom
+5 - 
+6 - 
+7 - 
+
+
+
+
+/*
+  Comcept React
+    componente
+    jsx
+    propriedades
+    estado
+    imutabilidade
+*/
