@@ -12,6 +12,8 @@ module.exports = {
     async create(req, res){
         const {name, email, whatsapp, city, uf} = req.body;
 
+        console.log("Esou aqui!!!!")
+
         const id = crypto.randomBytes(4).toString('HEX');
 
         await connection('ongs').insert({
@@ -25,4 +27,5 @@ module.exports = {
 
         return res.json({id})
     }
+    
 };
