@@ -1,9 +1,34 @@
-import React from 'react';
+import React, {useState} from 'react';
+
+import Header from './Header';
 
 function App() {
+  const [counter, setCounter] = useState(0);
+
+  function increment(){
+    setCounter(counter+1);
+  }
+
+
   return (
-    <h1>Teste</h1>
+    <div>
+    <Header>
+        Semana Omnistack
+        Counter: {counter}
+    </Header>
+    <button onClick={increment}>Incrementar</button>
+    </div>
   );
 }
 
 export default App;
+
+
+/*
+  Comcept React
+    componente
+    jsx
+    propriedades
+    estado
+    imutabilidade
+*/
