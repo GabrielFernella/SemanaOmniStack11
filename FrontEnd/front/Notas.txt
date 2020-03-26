@@ -3,7 +3,7 @@
 2 - ctrl+shift+p setings json Emments
 3 - npm install react-icons (Pacote de Icones)
 4 - npm install react-router-dom
-5 - 
+5 - npm install axios (Para fazer a conexão com a api e  FrontEnd)
 6 - 
 7 - 
 
