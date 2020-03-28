@@ -12,9 +12,9 @@ Pacotes instalados
     react-native-screens react-native-safe-area-context @react-native-community/masked-view
 7 - npm install @react-navigation/stack (Tipos de Navegações)
 8 - expo install expo-constants
-9 - 
-10 - 
-11 - 
+9 - expo install expo-mail-composer (para entrar em email)
+10 - npm install axios (cliente http responsavel por fazer as chamadas na API)
+11 - npm install intl (para nomeclatura de valores)
 12 - 
 13 - 
 14 - 
