@@ -16,7 +16,6 @@
 <p align="center">
   <a href="#computer-languages">Languages</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
 </p>
 
 ## :computer: Languages
@@ -78,4 +77,4 @@
 	* **styled-components**:  ^5.0.1
 
 
-Made by :blue_heart: by [Gabriel Fernella](https://github.com/gabrielfernella)
+Made by [Gabriel Fernella](https://github.com/gabrielfernella)
